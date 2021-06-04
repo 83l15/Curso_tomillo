@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    
+}
+/*ESTILO PARA BODY*/
+body{
+    font-family:arial;
+    margin:0px;
+}
+.header{
+    padding:60px;
+    text-align:center;
+    background: rgb(148, 101, 109);
+    color:black;
+}
+/* Estilo de navegacion bar */
+
+.navbar{
+    display:flex;
+    background-color: rgb(207, 107, 107);
+}
+.navbar a{
+    color:white;
+    padding:14px 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.navbar a:hover {
+    background-color:rgb(104, 67, 153);
+
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+/* Parte izquierda de la pag web (publicidad) side */
+
+.side{
+    flex:30%;
+    background-color:pink;
+    padding:20px;
+}
+/* Parte derecha generalmente donde va el contenido importante*/
+.main{
+    flex:70%;
+    background-color:rgb(199, 130, 130);
+    padding: 20px;
+}
+.primero{
+    background: rgb(0, 0, 0);
+    color:aliceblue;
+    width:100%;
+    padding: 20px;
+    text-align: center;
+
+}
+.footer{
+    padding:20px;
+    text-align:center;
+    background: rgb(148, 101, 109);
+}
+
+/* Hacemos la página responsiva cuando la interfaz sea inferior a 700px hará 2 columnas */
+
+@media screen and (max-width:700px){
+    .row,
+    .navbar{
+        flex:column;
+    }
+}

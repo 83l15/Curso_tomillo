@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #00C4CC;
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    
+}
+nav{
+  padding:50px ;
+  display:flex;
+  justify-content:space-around;
+  text-decoration:none;
+}
+.nav-enlace:hover{
+  background:#ff6b6b;
+  border-radius:30px;
+  border: 20px;
+}
+

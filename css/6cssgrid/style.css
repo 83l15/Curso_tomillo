@@ -1,0 +1,20 @@
+.container{
+    height: 100vh;
+    /* vh distribuye las cuadriculas ocupando todo el espacio */
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    grid-template-rows:2fr 1fr 3fr;
+
+    /* GRID TEMPLATE COLUMNS tamaño de division de Columnas o cuadrícula
+    COLUMN-GAP espaciado entre las columnas 
+    ROW-GAP Espaciado entre columnas y filas en una misma proporción */
+
+}
+
+.box{
+    background-color:green;
+    padding: 10px;
+    color:white;
+    text-align:center;
+}
